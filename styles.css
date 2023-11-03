@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  z-index: 2; /* Ensure the header is above the sidebar */
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin: 10px 0;
+}
+
+.slogan {
+  font-style: italic;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding: 8px 16px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #333;
+  padding: 20px;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1; /* Sidebar is above everything else */
+  color: #fff;
+}
+
+.sidebar .search-bar {
+  margin-bottom: 20px;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.sidebar input[type="text"]::placeholder {
+  color: #999;
+}
+
+.sidebar ul.name-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul.name-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul.name-list li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul.name-list li a:hover {
+  background-color: #555;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 240px;
+}
+
+.COTM {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align:center;
+}
+
+h3 {
+  color: #666;
+  text-align:center;
+}
+
+img {
+  max-width: 100%;
+  
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+figcaption {
+  color: #888;
+  font-size: 14px;
+  text-align:center;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+hr{
+  color:black;
+}
